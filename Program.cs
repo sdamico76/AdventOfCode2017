@@ -18,7 +18,8 @@ namespace Advent {
             Console.WriteLine("Day 4 Problem 2:" + Day_4.HighEntropyPassphrasesAnagram(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_4_0.txt")));
             Console.WriteLine("Day 5 Problem 1:" + Day_5.TrampolineMaze(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_5_0.txt")));
             Console.WriteLine("Day 5 Problem 2:" + Day_5.TrampolineMazeWithNegative(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_5_0.txt")));
-            Console.WriteLine("Day 6 Problem 0:" + Day_6.MemoryReallocation("0	5	10	0	11	14	13	4	11	8	8	7	1	4	12	11"));
+            Console.WriteLine("Day 6 Problem 1:" + Day_6.MemoryReallocation("0	5	10	0	11	14	13	4	11	8	8	7	1	4	12	11"));
+            Console.WriteLine("Day 6 Problem 2:" + Day_6.MemoryReallocationCycleTime("0	5	10	0	11	14	13	4	11	8	8	7	1	4	12	11"));
 
 
 

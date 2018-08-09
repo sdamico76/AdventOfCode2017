@@ -33,5 +33,34 @@ namespace Advent {
                 foundList.Add(arr.ToArray());
             }
         }
+
+        public static int MemoryReallocationCycleTime(string input) {
+            int[] arr = input.Split('\t').Select(int.Parse).ToArray();
+            int steps = 0;
+            List<int[]> foundList = new List<int[]>();
+            foundList.Add(arr.ToArray());//Add a copy of the array
+            while (true) {
+                var highestLoc = Array.IndexOf(arr, arr.Max());
+                var currentLoc = highestLoc;
+                var redisVal = arr[highestLoc];
+                arr[highestLoc] = 0;
+
+                while (redisVal > 0) {
+                    if (currentLoc < arr.Length - 1) {
+                        currentLoc++;
+                    } else {
+                        currentLoc = 0;
+                    }
+                    arr[currentLoc]++;
+                    redisVal--;
+                }
+                steps++;
+
+                if (foundList.Any(p => p.SequenceEqual(arr))) {
+                    return steps - foundList.FindIndex(p => p.SequenceEqual(arr)) ;
+                }
+                foundList.Add(arr.ToArray());
+            }
+        }
     }
 }
