@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{66D30B
 	ProjectSection(SolutionItems) = preProject
 		Day_1_0.txt = Day_1_0.txt
 		Day_1_1.txt = Day_1_1.txt
+		Day_2_0.txt = Day_2_0.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "..\UnitTest\UnitTest.csproj", "{F44E41C3-7503-418E-B045-BAEF87FB4FA7}"
