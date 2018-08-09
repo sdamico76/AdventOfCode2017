@@ -20,12 +20,14 @@ namespace Advent {
             //Console.WriteLine("Day 2 Problem 1:");
             //Console.WriteLine(Day_2.CorruptionChecksum_EvenlyDivisible(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_2_0.txt")));
 
-            Console.WriteLine("Day 3 Problem 0:");
-            Console.WriteLine(Day_3.GetSpiralLocation(368078));
+            //Console.WriteLine("Day 3 Problem 0:");
+            //Console.WriteLine(Day_3.GetSpiralLocation(368078));
 
-            Console.WriteLine("Day 2 Problem 1:");
-            Console.WriteLine(Day_3.GetSpiralLocationPart2(368078));
+            //Console.WriteLine("Day 2 Problem 1:");
+            //Console.WriteLine(Day_3.GetSpiralLocationPart2(368078));
 
+            Console.WriteLine("Day 4 Problem 0:");
+            Console.WriteLine(Day_4.HighEntropyPassphrases(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_4_0.txt")));
 
 
 
