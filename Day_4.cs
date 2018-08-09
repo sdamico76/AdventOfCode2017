@@ -15,5 +15,18 @@ namespace Advent {
             }
             return validCount;
         }
+
+        public static int HighEntropyPassphrasesAnagram(string input) {
+            var validCount = 0;
+            foreach (var line in input.Split('\n')) {
+                var lineWords = line.Trim().Split(' ');
+                List<string> sortedWords = new List<string>();
+                foreach (var word in lineWords) {
+                    sortedWords.Add(String.Concat(word.OrderBy(c => c)));
+                }
+                if (sortedWords.Count() == sortedWords.Distinct().Count()) validCount++;
+            }
+            return validCount;
+        }
     }
 }
