@@ -44,13 +44,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day_1.cs" />
-    <Compile Include="Day_2.cs" />
-    <Compile Include="Day_3.cs" />
-    <Compile Include="Day_4.cs" />
-    <Compile Include="Day_5.cs" />
-    <Compile Include="Day_6.cs" />
-    <Compile Include="Day_7.cs" />
+    <Compile Include="Week1\Day_1.cs" />
+    <Compile Include="Week1\Day_2.cs" />
+    <Compile Include="Week1\Day_3.cs" />
+    <Compile Include="Week1\Day_4.cs" />
+    <Compile Include="Week1\Day_5.cs" />
+    <Compile Include="Week1\Day_6.cs" />
+    <Compile Include="Week1\Day_7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

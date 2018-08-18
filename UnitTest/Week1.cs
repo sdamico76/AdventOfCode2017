@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Advent;
 using System.IO;
 
-namespace UnitTest {
+namespace Week1 {
     [TestClass]
     public class Day1 {
         [TestMethod]
