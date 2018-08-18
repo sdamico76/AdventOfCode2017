@@ -58,12 +58,12 @@ namespace UnitTest {
     public class Day4 {
         [TestMethod]
         public void Day4_0() {
-            Assert.AreEqual(383, Day_4.HighEntropyPassphrases(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_4_0.txt")));
+            Assert.AreEqual(383, Day_4.HighEntropyPassphrases(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_4_0.txt")));
         }
 
         [TestMethod]
         public void Day4_1() {
-            Assert.AreEqual(265, Day_4.HighEntropyPassphrasesAnagram(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_4_0.txt")));
+            Assert.AreEqual(265, Day_4.HighEntropyPassphrasesAnagram(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_4_0.txt")));
         }
     }
 
@@ -97,7 +97,7 @@ namespace UnitTest {
     public class Day7 {
         [TestMethod]
         public void Day7_0() {
-            Assert.AreEqual("qibuqqg", Day_7.RecursiveCircus(File.ReadAllText(@"C:\Personal Projects\Advent\ConsoleApp1\Day_7_0.txt")));
+            Assert.AreEqual("qibuqqg", Day_7.RecursiveCircus(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_7_0.txt")));
         }
         
     }
