@@ -9,8 +9,14 @@ namespace Advent {
     class Program {
         static void Main(string[] args) {
             //RunWeek1();
-            
+            RunWeek2();
             Console.ReadLine();
+        }
+
+        static void RunWeek2() {
+            Console.WriteLine("Day 8 Problem 1:" + Day_8.HighestRegisterValue(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
+            Console.WriteLine("Day 8 Problem 2:" + Day_8.HighestRegisterValueAllTime(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
+
         }
 
         static void RunWeek1() {
