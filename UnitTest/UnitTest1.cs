@@ -99,7 +99,10 @@ namespace UnitTest {
         public void Day7_0() {
             Assert.AreEqual("qibuqqg", Day_7.RecursiveCircus(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_7_0.txt")));
         }
-        
+        [TestMethod]
+        public void Day7_1() {
+            Assert.AreEqual("1079", Day_7.RecursiveCircusWeights(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_7_0.txt")));
+        }
     }
 
 }
