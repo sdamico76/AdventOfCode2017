@@ -14,8 +14,10 @@ namespace Advent {
         }
 
         static void RunWeek2() {
-            Console.WriteLine("Day 8 Problem 1:" + Day_8.HighestRegisterValue(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
-            Console.WriteLine("Day 8 Problem 2:" + Day_8.HighestRegisterValueAllTime(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
+            //Console.WriteLine("Day 8 Problem 1:" + Day_8.HighestRegisterValue(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
+            //Console.WriteLine("Day 8 Problem 2:" + Day_8.HighestRegisterValueAllTime(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
+            //Console.WriteLine("Day 9 Problem 1:" + Day_9.StreamProcessing(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
+            Console.WriteLine("Day 9 Problem 2:" + Day_9.CountGarbage(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
 
         }
 

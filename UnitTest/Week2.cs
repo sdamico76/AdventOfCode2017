@@ -17,4 +17,17 @@ namespace Week2 {
         }
     }
 
+    [TestClass]
+    public class Day9 { 
+        [TestMethod]
+        public void Day9_1() {
+            Assert.AreEqual(17537, Day_9.StreamProcessing(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
+        }
+
+        [TestMethod]
+        public void Day9_2() {
+            Assert.AreEqual(7539, Day_9.CountGarbage(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
+        }
+    }
+
 }
