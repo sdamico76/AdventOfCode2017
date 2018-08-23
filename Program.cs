@@ -17,7 +17,9 @@ namespace Advent {
             //Console.WriteLine("Day 8 Problem 1:" + Day_8.HighestRegisterValue(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
             //Console.WriteLine("Day 8 Problem 2:" + Day_8.HighestRegisterValueAllTime(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_8_0.txt")));
             //Console.WriteLine("Day 9 Problem 1:" + Day_9.StreamProcessing(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
-            Console.WriteLine("Day 9 Problem 2:" + Day_9.CountGarbage(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
+            //Console.WriteLine("Day 9 Problem 2:" + Day_9.CountGarbage(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
+            //Console.WriteLine("Day 10 Problem 1:" + Day_10.KnotHash("147,37,249,1,31,2,226,0,161,71,254,243,183,255,30,70", 256));
+            Console.WriteLine("Day 10 Problem 2:" + Day_10.BigKnotHash("147,37,249,1,31,2,226,0,161,71,254,243,183,255,30,70", 256));
 
         }
 

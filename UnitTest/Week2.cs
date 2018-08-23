@@ -30,4 +30,17 @@ namespace Week2 {
         }
     }
 
+    [TestClass]
+    public class Day10 {
+        [TestMethod]
+        public void Day10_1() {
+            Assert.AreEqual(12, Day_10.KnotHash("3,4,1,5", 5));
+        }
+
+        [TestMethod]
+        public void Day10_2() {
+            Assert.AreEqual(12, Day_10.BigKnotHash("147,37,249,1,31,2,226,0,161,71,254,243,183,255,30,70", 256));
+        }
+    }
+
 }
