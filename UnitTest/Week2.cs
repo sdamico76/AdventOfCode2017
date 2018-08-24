@@ -54,4 +54,16 @@ namespace Week2 {
             Assert.AreEqual(1426, Day_11.HexGridMaxDist(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_11_0.txt")));
         }
     }
+
+    [TestClass]
+    public class Day12 {
+        [TestMethod]
+        public void Day12_1() {
+            Assert.AreEqual(134, Day_12.PipeNetwork(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_12_0.txt")));
+        }
+        [TestMethod]
+        public void Day12_2() {
+            Assert.AreEqual(193, Day_12.PipeNetworkGroups(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_12_0.txt")));
+        }
+    }
 }

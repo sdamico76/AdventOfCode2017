@@ -20,9 +20,10 @@ namespace Advent {
             //Console.WriteLine("Day 9 Problem 2:" + Day_9.CountGarbage(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
             //Console.WriteLine("Day 10 Problem 1:" + Day_10.KnotHash("147,37,249,1,31,2,226,0,161,71,254,243,183,255,30,70", 256));
             //Console.WriteLine("Day 10 Problem 2:" + Day_10.BigKnotHash("147,37,249,1,31,2,226,0,161,71,254,243,183,255,30,70", 256));
-            Console.WriteLine("Day 11 Problem 1:" + Day_11.HexGrid(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_11_0.txt")));
-            Console.WriteLine("Day 11 Problem 2:" + Day_11.HexGridMaxDist(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_11_0.txt")));
-
+            //Console.WriteLine("Day 11 Problem 1:" + Day_11.HexGrid(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_11_0.txt")));
+            //Console.WriteLine("Day 11 Problem 2:" + Day_11.HexGridMaxDist(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_11_0.txt")));
+            Console.WriteLine("Day 12 Problem 1:" + Day_12.PipeNetwork(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_12_0.txt")));
+            Console.WriteLine("Day 12 Problem 2:" + Day_12.PipeNetworkGroups(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_12_0.txt")));
         }
 
         static void RunWeek1() {

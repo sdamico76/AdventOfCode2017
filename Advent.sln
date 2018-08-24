@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inputs", "Inputs", "{66D30B59-1CBA-4BFF-B592-80F94CF0D120}"
 	ProjectSection(SolutionItems) = preProject
 		Day_11_0.txt = Day_11_0.txt
+		Day_12_0.txt = Day_12_0.txt
 		Day_1_0.txt = Day_1_0.txt
 		Day_1_1.txt = Day_1_1.txt
 		Day_2_0.txt = Day_2_0.txt
