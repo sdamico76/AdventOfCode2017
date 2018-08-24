@@ -18,7 +18,7 @@ namespace Week2 {
     }
 
     [TestClass]
-    public class Day9 { 
+    public class Day9 {
         [TestMethod]
         public void Day9_1() {
             Assert.AreEqual(17537, Day_9.StreamProcessing(File.ReadAllText(@"C:\Personal Projects\Advent\Inputs\Day_9_0.txt")));
@@ -43,4 +43,15 @@ namespace Week2 {
         }
     }
 
+    [TestClass]
+    public class Day11 {
+        [TestMethod]
+        public void Day11_1() {
+            Assert.AreEqual(670, Day_11.HexGrid(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_11_0.txt")));
+        }
+        [TestMethod]
+        public void Day11_2() {
+            Assert.AreEqual(1426, Day_11.HexGridMaxDist(File.ReadAllText(@"C:\Users\Sam\Projects\AdventOfCode2017\Inputs\Day_11_0.txt")));
+        }
+    }
 }
